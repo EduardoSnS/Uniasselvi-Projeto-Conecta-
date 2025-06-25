@@ -1,0 +1,29 @@
+.confirmacao-container {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f0f8ff;
+  color: #005792;
+  height: 100vh;
+}
+
+.confirmacao-container h2 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+.confirmacao-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.confirmacao-container a {
+  color: white;
+  background-color: #0077cc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.confirmacao-container a:hover {
+  background-color: #005fa3;
+}
