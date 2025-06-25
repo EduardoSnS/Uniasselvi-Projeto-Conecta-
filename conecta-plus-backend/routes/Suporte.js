@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Suporte = require('../models/Suporte');
 
-// 📥 Rota para enviar uma solicitação de suporte
 router.post('/enviar', async (req, res) => {
   const { nome, email, descricao } = req.body;
 
@@ -19,7 +18,6 @@ router.post('/enviar', async (req, res) => {
   }
 });
 
-// 📃 (Opcional) Ver todas as solicitações de suporte (admin)
 router.get('/listar', async (req, res) => {
   try {
     const suportes = await Suporte.find().sort({ data: -1 });
