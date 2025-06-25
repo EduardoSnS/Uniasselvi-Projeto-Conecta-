@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Conecta+ 💙
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Conecta+** é um projeto desenvolvido com o objetivo de promover a **inclusão digital de idosos**, oferecendo tutoriais, suporte e eventos sobre o uso consciente da tecnologia.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tecnologias utilizadas
 
-### `npm start`
+- React.js (Frontend)
+- Express + Node.js (Backend)
+- MongoDB (Banco de Dados)
+- Axios (Consumo de API)
+- SweetAlert2 (Alertas)
+- React Router DOM (Rotas)
+- MongoDB Compass (Interface visual)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Estrutura do Projeto
 
-### `npm test`
+📦 conecta-plus
+├── src (este é o front-end)
+└── conecta-plus-backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+yaml
+Copiar
+Editar
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧪 Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Formulário de suporte com envio para o banco MongoDB
+- Interface acessível com carrossel de imagens
+- Contatos de ajuda (WhatsApp, Instagram, etc.)
+- Design com foco em tons azul e branco para melhor legibilidade
+- Estilo de fonte especifico para ajudar a leitura
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔧 Como rodar localmente
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd src
+npm install
+npm start
+2. Backend
+bash
+Copiar
+Editar
+cd conecta-plus-backend
+npm install
+npm run dev
+📌 Certifique-se de ter o MongoDB instalado e rodando localmente na porta padrão (27017).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌐 Objetivo futuro
+Transformar a aplicação em um aplicativo mobile (PWA ou React Native)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Incluir tutoriais em vídeo
 
-## Learn More
+Melhorar acessibilidade para pessoas com deficiência visual ou auditiva
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👨‍💻 Desenvolvedor
+Eduardo S.N.S.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Projeto para disciplina de Análise e Desenvolvimento de Sistemas - Uniasselvi.
 
-### Code Splitting
+📷 Logo e Layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Logo](./conecta-plus/src/assets/LogoConecta.png)
+![Layout](./conecta-plus/src/assets/iconsbemvindos.png)
