@@ -6,56 +6,60 @@
 
 ## 🚀 Tecnologias utilizadas
 
-- React.js (Frontend)
-- Express + Node.js (Backend)
-- MongoDB (Banco de Dados)
-- Axios (Consumo de API)
-- SweetAlert2 (Alertas)
-- React Router DOM (Rotas)
-- MongoDB Compass (Interface visual)
+- React.js (Frontend)  
+- Express + Node.js (Backend)  
+- MongoDB (Banco de Dados)  
+- Axios (Consumo de API)  
+- SweetAlert2 (Alertas)  
+- React Router DOM (Rotas)  
+- MongoDB Compass (Interface visual)  
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-📦 conecta-plus
-├── src (este é o front-end)
-└── conecta-plus-backend
-
-yaml
-Copiar
-Editar
-
----
-
-## 🧪 Funcionalidades
-
-- Formulário de suporte com envio para o banco MongoDB
-- Interface acessível com carrossel de imagens
-- Contatos de ajuda (WhatsApp, Instagram, etc.)
-- Design com foco em tons azul e branco para melhor legibilidade
-- Estilo de fonte especifico para ajudar a leitura
+```text
+conecta-plus
+├── backend (conecta-plus-backend)
+├── frontend (na raiz)
+├── public/
+├── src/
+├── .gitignor
+├── package-lock.json
+├── package.json
+└── README.md
 
 ---
 
-## 🔧 Como rodar localmente
+🧪 Funcionalidades:
 
-### 1. Frontend
+Formulário de suporte com envio para o banco MongoDB
 
-```bash
-cd src
+Interface acessível com carrossel de imagens
+
+Contatos de ajuda (WhatsApp, Instagram, etc.)
+
+Design com foco em tons azul e branco para melhor legibilidade
+
+Estilo de fonte específico para facilitar leitura
+
+---
+
+# 🔧 Como rodar localmente
+
+## 1. Frontend
 npm install
 npm start
-2. Backend
-bash
-Copiar
-Editar
-cd conecta-plus-backend
+
+## 2. Backend
+conecta-plus-backend
 npm install
 npm run dev
+
 📌 Certifique-se de ter o MongoDB instalado e rodando localmente na porta padrão (27017).
 
 🌐 Objetivo futuro
+
 Transformar a aplicação em um aplicativo mobile (PWA ou React Native)
 
 Incluir tutoriais em vídeo
@@ -63,11 +67,10 @@ Incluir tutoriais em vídeo
 Melhorar acessibilidade para pessoas com deficiência visual ou auditiva
 
 👨‍💻 Desenvolvedor
-Eduardo S.N.S.
+Carlos Eduardo
 
 Projeto para disciplina de Análise e Desenvolvimento de Sistemas - Uniasselvi.
 
 📷 Logo e Layout
 
-![Logo](./conecta-plus/src/assets/LogoConecta.png)
-![Layout](./conecta-plus/src/assets/iconsbemvindos.png)
+![Logo](src/assets/Logo%20Conecta.png)
