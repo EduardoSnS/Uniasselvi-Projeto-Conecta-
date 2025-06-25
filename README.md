@@ -74,3 +74,6 @@ Projeto para disciplina de Análise e Desenvolvimento de Sistemas - Uniasselvi.
 📷 Logo e Layout
 
 ![Logo](src/assets/Logo%20Conecta.png)
+<p align="center">
+  <img src="https://github.com/EduardoSnS/Uniasselvi-Projeto-Conecta-/raw/main/src/assets/Logo%20Conecta.png" width="200" alt="Logo Conecta+" />
+</p>
