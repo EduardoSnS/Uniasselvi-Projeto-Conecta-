@@ -27,25 +27,23 @@ conecta-plus
 ├── .gitignor
 ├── package-lock.json
 ├── package.json
-└── README.md
+└── README.md  
+```
+---
+
+## 🧪 Funcionalidades
+
+```text
+- Formulário de suporte com envio para o banco MongoDB
+- Interface acessível com carrossel de imagens
+- Contatos de ajuda (WhatsApp, Instagram, etc.)
+- Design com foco em tons azul e branco para melhor legibilidade
+- Estilo de fonte específico para facilitar leitura
+```
 
 ---
 
-🧪 Funcionalidades:
-
-Formulário de suporte com envio para o banco MongoDB
-
-Interface acessível com carrossel de imagens
-
-Contatos de ajuda (WhatsApp, Instagram, etc.)
-
-Design com foco em tons azul e branco para melhor legibilidade
-
-Estilo de fonte específico para facilitar leitura
-
----
-
-# 🔧 Como rodar localmente
+## 🔧 Como rodar localmente
 
 ## 1. Frontend
 npm install
