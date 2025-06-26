@@ -46,13 +46,18 @@ conecta-plus
 ## 🔧 Como rodar localmente
 
 ## 1. Frontend
-npm install
-npm start
+
+```text
+-npm install
+-npm start
+```
 
 ## 2. Backend
-conecta-plus-backend
-npm install
-npm run dev
+```text
+-conecta-plus-backend (terminal integrado)
+-npm install
+-npm run dev
+```
 
 📌 Certifique-se de ter o MongoDB instalado e rodando localmente na porta padrão (27017).
 
