@@ -84,7 +84,9 @@ Incluir tutoriais em vídeo
 
 Melhorar acessibilidade para pessoas com deficiência visual ou auditiva
 
+```
 👨‍💻 Desenvolvedor
 Carlos Eduardo
 
 Projeto para disciplina de Análise e Desenvolvimento de Sistemas - Uniasselvi.
+```
