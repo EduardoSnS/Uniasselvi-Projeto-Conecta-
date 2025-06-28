@@ -59,9 +59,24 @@ conecta-plus
 -npm run dev
 ```
 
-📌 Certifique-se de ter o MongoDB instalado e rodando localmente na porta padrão (27017).
+## 📌 Observação sobre o banco de dados
+```
+Este projeto utiliza uma instância privada do MongoDB Atlas conectada via variável de ambiente.
+Caso deseje testar com sua própria base de dados, você pode:
 
-🌐 Objetivo futuro
+1- Criar uma conta gratuita no MongoDB Atlas.
+
+2- Criar um cluster e liberar o seu IP em "Network Access".
+
+3- Criar um banco chamado conecta_plus.
+
+4- Atualizar o arquivo .env com sua própria MONGO_URI.
+
+MONGO_URI=mongodb+srv://<usuário>:<senha>@<seu-cluster>.mongodb.net/conecta_plus
+PORT=5000
+```
+
+## 🌐 Objetivo futuro
 
 Transformar a aplicação em um aplicativo mobile (PWA ou React Native)
 
